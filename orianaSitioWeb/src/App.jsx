@@ -1,24 +1,14 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import NavBar from './components/NavBar/NavBar'
-import Banner from './components/Banner/Banner'
+import Main from './components/Main/Main'
 
 function App() {
 
   return (
     <>
       <NavBar/>
-      <Banner/> 
-      <br />
-      <br /> 
-      <br />
-      <br /> 
-      <br />
-      <br /> 
-      <br />
-      <br /> 
-      <br />
-      <br /> 
+      <Main/>
     </>
   )
 }

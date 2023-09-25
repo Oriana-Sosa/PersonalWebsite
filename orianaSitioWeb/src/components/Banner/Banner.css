@@ -16,12 +16,17 @@
 
 .botonBanner{
     background-color: #22492B;
-    color: #ffffff;
     border:#22492B;
+    color: #ffffff;
     padding: 1.9rem;
     border-radius: 3rem;
     font-size: 1.8rem;
     font-family: 'Libre Baskerville', serif;
+}
+
+.linkLinkedin{
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .botonBanner:hover{
@@ -45,7 +50,7 @@
  * animation fade-in-top
  * ----------------------------------------
  */
- @-webkit-keyframes fade-in-top {
+@-webkit-keyframes fade-in-top {
     0% {
       -webkit-transform: translateY(-50px);
               transform: translateY(-50px);

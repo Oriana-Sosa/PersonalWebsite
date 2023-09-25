@@ -9,7 +9,7 @@ const NavBar = () => {
                 <div className="container-fluid">
                     <div className="d-flex">
                         <img src="../../../public/logoPng.png" className="logoNavBar" alt="Logo" />
-                        <p className="websiteName">Oriana Sosa</p>
+                        <h1 className="websiteName">Oriana Sosa</h1>
                     </div>
                     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                         <span className="navbar-toggler-icon"></span>
@@ -21,7 +21,7 @@ const NavBar = () => {
                         <div className="offcanvas-body flex-md-row justify-content-md-end flex-sm-column">
                             <ul className="navbar-nav justify-content-md-between align-content-sm-between text-center">
                                 <li className="nav-item m-2">
-                                    Sobre mi
+                                    <a className="linksNavBar" href="#aboutMe">Sobre mi</a>
                                 </li>
                                 <li className="nav-item m-2">
                                     Portfolio
