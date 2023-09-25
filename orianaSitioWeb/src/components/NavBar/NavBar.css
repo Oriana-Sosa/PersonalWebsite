@@ -1,0 +1,22 @@
+/*Estilos: nombre del sitio, logo, items navbar*/
+
+.logoNavBar{
+    width: 60px;
+}
+
+.websiteName{
+    font-size: 20px;
+    margin-top: 14px;
+    font-family: 'Noto Serif Display', serif;
+    color: #0D3917;
+
+}
+
+.nav-item{
+    font-weight: 600;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.nav-item:hover{
+    color: #3B6814;
+}
