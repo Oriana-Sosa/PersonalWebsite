@@ -5,7 +5,7 @@ const Portfolio = () => {
         <div className="container-fluid">
             <div className="row">
                 <h2 className="titles">Portfolio</h2>
-                <EjemplosPortfolio/>
+                    <EjemplosPortfolio/>
             </div>
         </div>
     )
