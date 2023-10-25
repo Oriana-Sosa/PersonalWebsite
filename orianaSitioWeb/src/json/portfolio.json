@@ -1,16 +1,19 @@
 [
     {
         "nombre": "M&M Cakes",
-        "img":"mymPortfolio.jpg"
+        "img":"mymPortfolio.jpg",
+        "id": 1
     },
 
     {
         "nombre": "Nambooks",
-        "img":"nambooksPortfolio.jpg"
+        "img":"nambooksPortfolio.jpg",
+        "id": 2
     },
 
     {
         "nombre": "Sook",
-        "img": "sookPortfolio.jpg"
+        "img": "sookPortfolio.jpg",
+        "id": 3
     }
 ]
