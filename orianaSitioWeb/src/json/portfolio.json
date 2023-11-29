@@ -2,7 +2,21 @@
     {
         "nombre": "M&M Cakes",
         "img":"mymPortfolio.jpg",
-        "id": 1
+        "id": 1,
+        "info": "Este sitio web fue el proyecto final del curso de Diseño Web que realicé al principio de mis estudios. Consistía en un sitio estático para un emprendimiento real de pastelería.",
+        "info2": "A lo largo del curso realicé varios prototipos del sitio hasta llegar a este resultado final, el cual subí a GitHub Pages. En el proceso, incluí en mi sitio HTML, CSS, Bootstrap, SASS, GRIDS, SEO y animaciones. Además, para realizar el wireframe de la misma, utilicé Balsamiq.",
+        "invitacion": "Los invito a hacer click en la imágen para ir hacia el sitio.",
+        "tec":[
+            "HTML",
+            "CSS",
+            "SASS",
+            "Bootstrap",
+            "SEO",
+            "GRIDS",
+            "Balsamiq",
+            "Animaciones"  
+        ]
+        
     },
 
     {
