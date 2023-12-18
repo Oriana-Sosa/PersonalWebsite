@@ -15,19 +15,57 @@
             "GRIDS",
             "Balsamiq",
             "Animaciones"  
-        ]
-        
+        ],
+        "subtitulo": "Tecnologías, conceptos y librerías utilizadas:"
     },
 
     {
         "nombre": "Nambooks",
         "img":"nambooksPortfolio.jpg",
-        "id": 2
+        "img2":"nambooksCarrito.png",
+        "id": 2,
+        "info":"Nambooks fue el proyecto final que tuve que realizar a fin de obtener mi certificación en el curso de JavaScript de Coderhouse. El mismo consiste en un e-commerce ficticio de venta de libros con un carrito de compras funcional.",
+        "info2":"Entre las funciones existentes en este sitio web se encuentra la posibilidad de agregar libros al carrito de compras, eliminarlos por unidad o en su totalidad, y vaciar el carrito. Al mismo tiempo, el carrito permite ver el total de compra a medida que el mismo es modificado y cuenta con la capacidad de reconocer objetos olvidados en el mismo de compras no finalizadas. Además, cuenta con una página en donde se puede confirmar el pedido de libros realizado con un formulario funcional o cancelar la orden por completo.",
+        "info3":"Este proyecto formó parte del Top 10 de mi comisión y es el proyecto al que más cariño le tengo por todo lo que aprendí al realizarlo.",
+        "invitacion": "Los invito a hacer click en las imágenes para ir hacia el sitio.",
+        "tec":[
+            "JavaScript",
+            "JSON",
+            "Asincronía",
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "Storage",
+            "SweetAlert",
+            "Toastify",
+            "Operadores avanzados",
+            "Objetos",
+            "Funciones de orden superior"  
+        ],
+        "subtitulo": "Tecnologías, conceptos y librerías utilizadas:"
     },
 
     {
         "nombre": "Sook",
         "img": "sookPortfolio.jpg",
-        "id": 3
+        "img2":"sookDetalle.png",
+        "id": 3,
+        "tec":[
+            "ReactJs",
+            "Firebase",
+            "Context",
+            "Async",
+            "Hooks",
+            "Routing y navegación",
+            "Eventos",
+            "Bootstrap",
+            "CSS",
+            "HTML"  
+        ],
+        "invitacion": "Los invito a hacer click en las imágenes para ir hacia el sitio.",
+        "subtitulo": "Tecnologías, conceptos y librerías utilizadas:",
+        "info":"Sook nació como el proyecto de mi curso de ReactJs, y tuve la alegría de verlo formar parte del Top 10 de toda mi comisión. El mismo consiste en un e-commerce, ficticio pero funcional, para una marca de venta de ropa.",
+        "info2":"Este sitio web cuenta con distintas funciones, entre las que se destacan las clásicas de todo e-commerce: agregar y eliminar de un carrito, vaciarlo por completo, ver el total de la compra y realizar un check-out. Sin embargo, cuenta con unos agregados muy interesantes: como la opción de clickear un producto y ver toda la información disponible del mismo sin recargar la página o ir a otro lado (una de las magias de ReactJs) y la vinculación del sitio con una base de datos disponible en Firebase. En dicha base de datos se encuentran todos los productos y su información en tiempo real, al mismo tiempo que se almacenan los pedidos realizados junto a la información que el mismo cliente ingresa por su cuenta.",
+        "info3":"Realizar este sitio fue todo un desafío, pero me permitió aprender mucho y sigo trabajando en este proyecto para poder ponerle más de mi impronta."
     }
 ]
