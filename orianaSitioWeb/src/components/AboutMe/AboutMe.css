@@ -16,3 +16,11 @@
 .guardaAboutMe{
     width: 300px;
 }
+
+@media (max-width:410px){
+    .guardaAboutMe{
+        width: 150px;
+    }
+}
+
+

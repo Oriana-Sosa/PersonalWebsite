@@ -93,3 +93,13 @@
         font-size: 3rem !important;
     }
 }
+
+@media (min-width: 390px){
+  .logoBanner{
+    width: 23.1rem;
+}
+
+.botonBanner{
+  padding: 1.2rem
+}
+}
