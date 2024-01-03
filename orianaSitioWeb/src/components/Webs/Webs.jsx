@@ -17,7 +17,7 @@ const Webs = () => {
     },[webs])
 
     return (
-        <div className="d-flex mt-5 flex-column flex-md-row">
+        <div className="d-flex mt-5 flex-column flex-lg-row">
             <div className="col-lg-6   ">
                 <img src={`../../src/assets/${webs.img}`} className="m-5" alt="" />
                 <img src={`../../src/assets/${webs.img2}`} className="img2 m-5" alt="" />
@@ -29,11 +29,13 @@ const Webs = () => {
                 <p className="textInfo">{webs.info3}</p>
                 <p className="invitacion">{webs.invitacion}</p>
                 <h5 className="nombreWebs">{webs.subtitulo}</h5>
-                <ul className="lista d-flex flex-wrap">
+                
+                <ul className="ulTecno">
                     {tecno.map((ele, i)=>(
-                        <li key={i} className="elementsList m-3">{ele}</li>
+                        <li key={i} className="elementsList">{ele}</li>
                     ))}
-                </ul> 
+                </ul>
+                
             </div>
         </div>
     )

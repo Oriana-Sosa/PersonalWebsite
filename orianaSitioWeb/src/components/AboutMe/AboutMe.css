@@ -17,10 +17,16 @@
     width: 300px;
 }
 
+.aboutMeContainer{
+    margin-top: 100px;
+}
+
+
 @media (max-width:410px){
     .guardaAboutMe{
         width: 150px;
     }
 }
+
 
 

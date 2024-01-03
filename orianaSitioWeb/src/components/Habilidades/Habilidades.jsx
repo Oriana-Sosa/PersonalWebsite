@@ -2,9 +2,10 @@ import styles from "./Habilidades.css"
 
 const Habilidades = () => {
     return (
-        <div className="container-fluid">
-            <h2 className="titles">Habilidades</h2>
-            <div id="carouselExample" className="carousel slide">
+        <div className="container-fluid containerHabilidades">
+            <div className="row">
+            <a name="habilidades"><h2 className="titles">Habilidades</h2></a>
+            <div id="carouselExample" className="carousel slide carousel-dark mt-5">
                 <div className="carousel-inner">
                     <div className="carousel-item active text-center">
                         <img src="../../src/assets/js.png" className="p-3" alt="..."/>
@@ -25,6 +26,7 @@ const Habilidades = () => {
                     <span className="carousel-control-next-icon"></span>
                 </button>
                 </div>
+            </div> 
             </div>
         </div>
     )

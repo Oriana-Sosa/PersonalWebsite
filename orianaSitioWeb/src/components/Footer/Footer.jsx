@@ -2,9 +2,9 @@ import styles from "./Footer.css"
 
 const Footer = () => {
   return (
-    <div className="container-fluid mt-4">
+    <div className="container-fluid mt-5">
       <div className="row">
-        <div className="footer p-3 d-flex ">
+        <div className="footer p-2 d-flex ">
           <div className="col-6">
             <p className="footerName m-2">Oriana Sosa</p>
           </div>

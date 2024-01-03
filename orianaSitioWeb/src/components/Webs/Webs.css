@@ -11,7 +11,26 @@
 
 .elementsList{
     font-weight: bolder;
-    
+    text-decoration: #0D3917;
+}
+
+.ulTecno{
+    list-style: none;
+    -moz-column-count: 4;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 20px;
+    column-count: 4;
+    column-gap: 20px;
+}
+
+.ulTecno li::before {
+    content: "\2022";  
+    color:#0D3917; 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
 }
 
 .img2{
