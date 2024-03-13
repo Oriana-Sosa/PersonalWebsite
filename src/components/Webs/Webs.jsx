@@ -19,8 +19,8 @@ const Webs = () => {
     return (
         <div className="d-flex mt-5 flex-column flex-lg-row">
             <div className="col-lg-6   ">
-                <img src={`../../src/assets/${webs.img}`} className="m-5" alt="" />
-                <img src={`../../src/assets/${webs.img2}`} className="img2 m-5" alt="" />
+                <img src={webs.img} className="m-5" alt="" />
+                <img src={webs.img2} className="img2 m-5" alt="" />
             </div>
             <div className="col-lg-6">
                 <h3 className="nombreWebs">{webs.nombre}</h3>
