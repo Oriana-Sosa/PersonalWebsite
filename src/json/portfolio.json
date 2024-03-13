@@ -21,8 +21,8 @@
 
     {
         "nombre": "Nambooks",
-        "img":"nambooksPortfolio.jpg",
-        "img2":"nambooksCarrito.png",
+        "img":"https://imgs.search.brave.com/yg2Fn2FbZsYOCDj4iIRUs8vMmp9tq0X5_uk4-ECwlFo/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9odW1h/bmlkYWRlcy5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMTcv/MDIvcGF0by00LWUx/NTYwOTE4Mjg2MzE1/LmpwZw",
+        "img2":"https://imgs.search.brave.com/yg2Fn2FbZsYOCDj4iIRUs8vMmp9tq0X5_uk4-ECwlFo/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9odW1h/bmlkYWRlcy5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMTcv/MDIvcGF0by00LWUx/NTYwOTE4Mjg2MzE1/LmpwZw",
         "id": 2,
         "info":"Nambooks fue el proyecto final que tuve que realizar a fin de obtener mi certificación en el curso de JavaScript de Coderhouse. El mismo consiste en un e-commerce ficticio de venta de libros con un carrito de compras funcional.",
         "info2":"Entre las funciones existentes en este sitio web se encuentra la posibilidad de agregar libros al carrito de compras, eliminarlos por unidad o en su totalidad, y vaciar el carrito. Al mismo tiempo, el carrito permite ver el total de compra a medida que el mismo es modificado y cuenta con la capacidad de reconocer objetos olvidados en el mismo de compras no finalizadas. Además, cuenta con una página en donde se puede confirmar el pedido de libros realizado con un formulario funcional o cancelar la orden por completo.",
@@ -47,8 +47,8 @@
 
     {
         "nombre": "Sook",
-        "img": "sookPortfolio.jpg",
-        "img2":"sookDetalle.png",
+        "img": "https://imgs.search.brave.com/yg2Fn2FbZsYOCDj4iIRUs8vMmp9tq0X5_uk4-ECwlFo/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9odW1h/bmlkYWRlcy5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMTcv/MDIvcGF0by00LWUx/NTYwOTE4Mjg2MzE1/LmpwZw",
+        "img2":"https://imgs.search.brave.com/yg2Fn2FbZsYOCDj4iIRUs8vMmp9tq0X5_uk4-ECwlFo/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9odW1h/bmlkYWRlcy5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMTcv/MDIvcGF0by00LWUx/NTYwOTE4Mjg2MzE1/LmpwZw",
         "id": 3,
         "tec":[
             "ReactJs",
