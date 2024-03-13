@@ -1,5 +1,4 @@
 import { createContext, useEffect, useState } from "react";
-import json from "../../portfolio.json"
 
 const PortfolioContext = createContext()
 
@@ -10,7 +9,7 @@ function PortfolioProvider (props) {
 
     //Creo una función que permitirá ser usada con un useEffect en futuros componentes.
     const getSitio = () => {
-        fetch(`../../portfolio.json`)
+        fetch(`portfolio.json`)
         .then ((res)=> res.json())
         .then ((data)=> setSitio(data))
     }
