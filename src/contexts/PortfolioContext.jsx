@@ -9,7 +9,7 @@ function PortfolioProvider (props) {
 
     //Creo una función que permitirá ser usada con un useEffect en futuros componentes.
     const getSitio = () => {
-        fetch(`portfolio.json`)
+        fetch(`../../public/portfolio.json`)
         .then ((res)=> res.json())
         .then ((data)=> setSitio(data))
     }
