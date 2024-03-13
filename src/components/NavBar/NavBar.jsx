@@ -1,5 +1,7 @@
 /*NavBar que contendrá logo, nombre y links internos*/
 import styles from "./NavBar.css"
+import logo from "./../../assets/logoSitioWeb.png"
+
 
 const NavBar = () => {
 
@@ -8,7 +10,7 @@ const NavBar = () => {
             <nav className="navbar navbar-expand-md ">
                 <div className="container-fluid">
                     <div className="d-flex">
-                        <img src="../../../public/logoPng.png" className="logoNavBar" alt="Logo" />
+                        <img src={logo} className="logoNavBar" alt="Logo" />
                         <h1 className="websiteName">Oriana Sosa</h1>
                     </div>
                     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
