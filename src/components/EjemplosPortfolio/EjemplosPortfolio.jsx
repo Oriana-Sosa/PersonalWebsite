@@ -26,7 +26,7 @@ const EjemplosPortfolio = () => {
             <button className="btnPortfolio mt-4" onClick={()=> setWebs(web)}>Conocé más</button> 
             </div> //setWebs identificará el sitio que se seleccionó y lo seteara como la web seleccionada.
             ))}   
-            
+            <p>padhkhsdjkfsdjk</p>
         </div>
     )
     
