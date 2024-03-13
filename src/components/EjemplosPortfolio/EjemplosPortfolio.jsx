@@ -13,6 +13,7 @@ const EjemplosPortfolio = () => {
         getSitio()
     },[])
 
+ 
     //Función para cambiar el sitio web de mi portfolio seleccionado.
     const {setWebs} = useContext(WebsContext)
 
@@ -21,12 +22,14 @@ const EjemplosPortfolio = () => {
             {sitio.map((web)=>
             (
             <div key={web.id} className="d-flex flex-column alignt-items-around text-center p-4">
-            <img src={`../../src/assets/${web.img}`} alt=""></img>
+            <img src={web.img} alt=""></img>
             <button className="btnPortfolio mt-4" onClick={()=> setWebs(web)}>Conocé más</button> 
             </div> //setWebs identificará el sitio que se seleccionó y lo seteara como la web seleccionada.
-            ))}
+            ))}   
+            
         </div>
     )
+    
 }
 
 export default EjemplosPortfolio
