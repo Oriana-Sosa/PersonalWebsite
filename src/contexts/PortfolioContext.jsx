@@ -1,5 +1,5 @@
 import { createContext, useEffect, useState } from "react";
-
+import json from "../../public/portfolio.json"
 const PortfolioContext = createContext()
 
 //Propósito de la función: proveer un array con todos los sitios web del portfolio y su información.
@@ -9,9 +9,7 @@ function PortfolioProvider (props) {
 
     //Creo una función que permitirá ser usada con un useEffect en futuros componentes.
     const getSitio = () => {
-        fetch(`../../public/portfolio.json`)
-        .then ((res)=> res.json())
-        .then ((data)=> setSitio(data))
+        setSitio(json);
     }
 
     return (
